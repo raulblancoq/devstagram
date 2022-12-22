@@ -14,7 +14,6 @@
                     <livewire:like-post :post="$post" />
 
                 @endauth
-                
             </div>
             <div>
                 <p class="font-bold">{{ $post->user->username}}</p>
